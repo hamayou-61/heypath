@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  background: #7cdbcc;
+  background: radial-gradient(#b9dbd4 -40%, #7cdbcc 60%, #7cdbcc 100%);
+  font-family: $font-basic;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+p,
+i,
+dt,
+dd {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+}
+li {
+  list-style: none;
+}
+input {
+  font-family: $font-basic;
+  &::placeholder {
+    font-family: "DotGothic16";
+  }
+}
+button {
+  font-family: $font-basic;
+}
