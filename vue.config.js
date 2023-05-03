@@ -1,10 +1,12 @@
 const path = require('path');  
 
 module.exports = {
+  outputDir: 'docs',
   publicPath: './',
   pages: {
     index: {
-      title: "heypath",
+      entry: "src/main.js",
+      title: "heypath"
     }
   },
   configureWebpack: {  
